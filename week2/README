@@ -1,0 +1,19 @@
+STRUCT AND POINT PRACTICE 
+
+練習 : 
+
+分析兩圓的關係，使用下面提供的結構，輸入的值為兩個圓的圓心及半徑，
+輸出為兩個圓的關係(ex:兩個相同的圓，同圓心不同半徑，兩圓沒有交點，
+有一個交點，有兩個交點..)，並試著使用列舉。
+
+typedef struct
+{
+   double x, y;
+} Point;
+
+typedef struct
+{
+   Point center;
+   double r;
+} Circle;
+
